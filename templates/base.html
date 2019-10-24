@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
+      <meta name="apple-mobile-web-app-capable" content="yes">
+      <meta name="theme-color" content="#ffffff">
+      <meta content="width=device-width, initial-scale=1.0" name="viewport">
+      <meta name="theme-color" content="#ffffff">
+      <meta name="description" content="YOUR DESCRIPTION">
+      <meta name="author" content="YOUR NAME">
+      <meta name="keywords" content="key1, key2, key-n">
+
+      <link href="/static/css/framework7.css" rel="stylesheet">
+      <link href="/static/css/framework7.min.css" rel="stylesheet">
+      <link href="/static/css/framework7.bundle.css" rel="stylesheet">
+      <link href="/static/css/framework7.bundle.min.css" rel="stylesheet">
+      <link href="/static/css/framework7-icons.css" rel="stylesheet">
+      
+      <link href="/static/manifest.json" rel="manifest">
+
+      <!-- Favicons -->
+      <link href="static/img/app.ico" rel="icon">
+      <link href="static/img/apple-touch-icon.png" rel="apple-touch-icon">
+      <title>
+        {% block title %}{% endblock %}
+      </title>
+
+      {% block html_head %}{% endblock %}
+    </head>
+
+    <body class="page color-theme-red">
+    
+      <!-- App root element -->
+      <div id="app">
+        {% block body_content %}{% endblock %}
+      </div>
+
+      <script src="{{ url_for('static', filename='sw.js') }}"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+      <script src="{{ url_for('static', filename='js/framework7.js') }}"></script>
+      <script src="{{ url_for('static', filename='js/framework7.min.js') }}"></script>
+      <script src="{{ url_for('static', filename='js/framework7.min.js.map') }}"></script>
+      <script src="{{ url_for('static', filename='js/framework7.bundle.js') }}"></script>
+      <script src="{{ url_for('static', filename='js/framework7.bundle.min.js') }}"></script>
+      <script src="{{ url_for('static', filename='js/install.js') }}"></script>
+      <script src="{{ url_for('static', filename='js/f7_setup.js') }}"></script>
+      {% block scripts %}{% endblock %}
+
+    </body>
+</html>
