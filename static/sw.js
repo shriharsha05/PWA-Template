@@ -1,4 +1,6 @@
-importScripts('https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js');
+if ('undefined' === typeof window) {
+    importScripts('https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js');
+}
 
 workbox.core.skipWaiting();
 workbox.core.clientsClaim();
