@@ -40,12 +40,16 @@ localhost:8080
 
 ### References
 
+Some really good links worth checking out.
+
 - [Framework7 Docs](https://framework7.io/docs/)
 - [Flask Docs](http://flask.palletsprojects.com/en/1.1.x/)
 - [Deploying your app to Heroku Cloud](https://pythonhow.com/deploying-your-web-application-to-the-cloud/)
 - [Get Beautiful Icon sets](https://iconscout.com/)
 - [Google Workbox Docs](https://developers.google.com/web/tools/workbox)
-- [Add Google Analytics to your app](https://analytics.google.com/analytics/web)
+- [Add Google Analytics](https://analytics.google.com/analytics/web)
+- [Add Push Notifications](https://onesignal.com/)
+- [Test your application on various mobile simulators](https://live.browserstack.com/)
 
 ### Todos
 
