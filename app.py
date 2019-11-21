@@ -6,11 +6,13 @@ Developer : Shriharsha M [shriharsha05@computer.org]
 from flask import Flask, render_template, url_for, redirect, request, session, flash
 from gevent.pywsgi import WSGIServer
 from flask_compress import Compress
+#from flask_sslify import SSLify
 
 
 #flask config
 app = Flask(__name__)
 app.secret_key = 'SECRET_KEY'
+#sslify = SSLify(app)
 Compress(app)
 
 
