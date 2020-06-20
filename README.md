@@ -48,6 +48,7 @@ Some really good links worth checking out.
 - [Get Beautiful Icon sets](https://iconscout.com/)
 - [Google Workbox Docs](https://developers.google.com/web/tools/workbox)
 - [Add Google Analytics](https://analytics.google.com/analytics/web)
+- [Use Google Search Console](https://search.google.com/search-console/)
 - [Add Push Notifications](https://onesignal.com/)
 - [Test your application on various mobile simulators](https://live.browserstack.com/)
 
