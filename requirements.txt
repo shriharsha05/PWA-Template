@@ -4,7 +4,7 @@ gunicorn==19.9.0
 itsdangerous==1.1.0
 Jinja2==2.10.1
 MarkupSafe==1.1.0
-Werkzeug==0.15.3
+Werkzeug==0.15.5
 dnspython==1.16.0
 openpyxl==2.6.0
 gevent==1.3
